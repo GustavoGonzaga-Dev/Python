@@ -1,0 +1,50 @@
+https://repl.it/languages/python3
+----------------------------------------------------
+
+fundação bradesco
+
+
+
+----------------------------------------------------
+from tkinter import *
+class Application:
+	def _init_(self, master=None):
+		pass
+	root = Tk()
+	Application(root)
+	root.mainloop(
+
+-----------------EX19-------------------------------
+
+A = float (input("insira o primeiro valor real: "))
+B = float (input("insira o seguno valor real: "))
+if (A > B):
+  print("o maior valor é: ", A)
+else:
+  print("o maior valor é: ", B)
+
+---------------EX16-----------------------------------
+
+Ht = int (input("insira a quantidade de horas trabalhadas por mês: "))
+Vh = float (input("insira o valor por hora: "))
+Pd = float (input("insira o valor do percentual de desconto: "))
+Nd= int (input("insira o numero de descendentes: "))
+Sb = (Ht * Vh)
+Des = ( Pd * Sb) / 100
+Sl = Sb - Des
+Total = (Nd * 100) + Sl
+print("seu salario total ja com o desconto e os acrécimos é: ", Total)
+
+--------------testes------------
+
+#num1 = int (input('entre com o primeiro valor: '))
+#num2 = int (input('entre com o segundo valor: '))
+#num3= (num1 + num2)
+#if (num1>num2):
+  #print(num1, "é maior que ", num2)
+#else:
+  #print(num2, "é maior que ", num1)
+#print("A soma dos dois valores é:", num3)
+
+
+#print("hello World!!!! :3")
